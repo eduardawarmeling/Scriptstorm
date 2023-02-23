@@ -7,15 +7,29 @@
     <title>tela_inicial</title>
 </head>
 <style>
-    .tela_inicial
+    .logo
     {
         position: absolute;
         top: 200px;
-        left: 450px; 
+        left: 400px; 
         width: 700px;
+        animation: anima_logo 3s forwards infinite;
+     }
+     
+     @keyframes anima_logo
+
+    {
+         0%   { left: 0px; top: 200px; }
+        100% { left: 400px;  top: 200px;  }   
     }
+
+    body{
+    background-color: black;
+}
+
 </style>
 <body>
-    <img src="raio_outro.gif" class="tela_inicial">
+    <img src="Script3.gif" class="logo">
+
 </body>
 </html>
